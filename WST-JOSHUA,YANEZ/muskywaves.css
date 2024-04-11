@@ -1,0 +1,174 @@
+  body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('bgg1.jpg');
+            background-repeat: no-repeat;
+            background-size:100% 100%;
+            text-align: center;
+
+        }
+
+        header {
+            background-color: transparent;
+            backdrop-filter:blur(10px);
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            color: brown;
+        }
+
+        nav {
+            background-color:black;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            border-bottom:10px solid #ffcba4;
+            border-top:10px solid #b07946;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            border:5px solid black;
+            width: 70px;
+            background-color:black;
+        }
+        nav a:hover{
+             background-color:dimgray;
+             border:10px solid dimgray;
+        }
+        section {
+           
+            margin: 20px auto;
+            padding: 20px;
+            background-color: transparent;
+            backdrop-filter:blur(10px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-height:600vh;
+            height:50vh ;
+            color:peachpuff;
+            width: 130vh;
+        }
+
+        h2 {
+            color: peachpuff;
+        }
+
+        .menu-category {
+            margin-bottom: 20px;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .menu-item img {
+            max-width: 100px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .about-content {
+            text-align: justify;
+        }
+
+        .services-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color:peachpuff;
+            backdrop-filter:blur(10px);
+            color: #fff;
+            position:;
+            width:100%;
+        }
+        #logo{
+            outline:5px solid #b07946;
+            border-radius:60%;
+            width:100px;
+        }
+        #contact img{
+        width:15px
+      }
+      #home,#menu,#about,#contact,#virtual_cashier{
+    border:7px inset #ffcba4;
+
+      }
+      #menu img{
+        height: 300px;
+        box-sizing: border-box;
+        width: 330.33px;
+        float: left;
+        padding: 15px;
+        border:2px inset peachpuff;
+        margin-left:20px;
+        text-align: center;
+        transition: 1s;
+
+      }
+
+      #menu p{
+            box-sizing: border-box;
+        width: 330.33px;
+        float: left;
+        padding: 15px;
+        border:2px inset peachpuff;
+        margin-left:20px;
+        text-align: center;
+      }
+      #menu p:hover{
+            box-sizing: border-box;
+        width: 330.33px;
+        float: left;
+        padding: 15px;
+        border:2px inset peachpuff;
+        margin-left:20px;
+        text-align: center;
+        background-color: peachpuff;
+      }
+      .products{
+        padding-left: 100px;
+        width: 170vh;
+        height: 170vh;
+      }
+      .products a{
+        color:peachpuff;
+        font-size: 20px;
+
+      }
+      
+         footer {
+            text-align: left;
+            padding: 20px; /* Optional: Add padding for better spacing */
+        }
+
+        .contact {
+            margin-bottom: 10px; /* Optional: Add margin between image and text */
+        }
+        .maps{
+            color: peachpuff;
+        }
+        #home p{
+
+            font-size: 25px;
+
+        }
+        #menu img:hover{
+            background-color:peachpuff;
+            width: 350.33px;
+            height: 350px;
+
+        }
